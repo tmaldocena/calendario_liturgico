@@ -1,0 +1,20 @@
+---
+const colors = {
+  Blanco: "bg-gray-100 text-gray-800",
+  Rojo: "bg-red-100 text-red-800",
+  Verde: "bg-green-100 text-green-800",
+  Violeta: "bg-purple-100 text-purple-800",
+  Rosa: "bg-pink-100 text-pink-800",
+  Negro: "bg-gray-800 text-white"
+} as const;
+
+type Color = keyof typeof colors;
+
+const { color } = Astro.props as { color?: Color };
+---
+
+{color && (
+  <span class={`inline-flex items-center px-4 py-1 rounded-full text-sm font-medium border border-gray-300 ${colors[color]} mb-4`}>
+    Color: {color}
+  </span>
+)}

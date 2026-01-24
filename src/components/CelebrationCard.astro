@@ -1,0 +1,29 @@
+---
+const { celebration, lang = "es" } = Astro.props;
+---
+
+<div class="bg-white border border-gray-200 rounded-xl p-4 space-y-2 hover:shadow-sm transition">
+  <h3 class="text-lg font-semibold">
+    {celebration.title[lang]}
+  </h3>
+
+  {celebration.rank && (
+    <p class="text-sm text-gray-600">
+      Rango: {celebration.rank[lang]}
+    </p>
+  )}
+
+  {celebration.fasting && (
+    <p class="text-lg leading-relaxed text-gray-800">
+      {celebration.fasting === "abstinence" && "Abstinencia"}
+      {celebration.fasting === "fasting" && "Ayuno"}
+      {celebration.fasting === "fasting_abstinence" && "Ayuno y abstinencia"}
+    </p>
+  )}
+
+  {celebration.misc && (
+    <p class="text-lg leading-relaxed text-gray-800">
+      {celebration.misc}
+    </p>
+  )}
+</div>

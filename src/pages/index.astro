@@ -1,0 +1,98 @@
+---
+import calendar from "../data/calendar-2026.json";
+import { toISO, formatDate } from "../utils/date";
+import CelebrationCard from "../components/CelebrationCard.astro";
+import ColorBadge from "../components/ColorBadge.astro";
+import Layout from "../layouts/Layout.astro";
+
+const today = new Date();
+const todayISO = toISO(today);
+
+// Mapea el valor de color a una clase Tailwind fija (evita clases dinámicas que Tailwind puede purgar)
+const borderColorClass = (color: any) => {
+	switch (color) {
+		case "Blanco":
+			return "border-white";
+		case "Rojo":
+			return "border-red-500";
+		case "Verde":
+			return "border-green-500";
+		case "Violeta":
+			return "border-purple-500";
+		case "Rosa":
+			return "border-pink-500";
+		case "Negro":
+			return "border-gray-800";
+		default:
+			return "border-gray-200";
+	}
+};
+
+const todayData = calendar.find((d) => d.date === todayISO);
+const todayAccent = todayData?.celebrations?.[0]?.color;
+const todayAccentBorder = todayAccent ? `border-l-8 ${borderColorClass(todayAccent)}` : 'border-l-4 border-gray-200';
+
+// Próximos 5 días
+const upcoming = calendar.filter((d) => d.date > todayISO).slice(0, 5);
+---
+
+<Layout>
+	<main class="max-w-3xl mx-auto px-6 py-10 bg-[#f7f7f5]">
+		<header class="text-center space-y-2">
+			<p class="text-sm uppercase tracking-widest text-gray-500">Hoy</p>
+
+			<div class="flex justify-center items-baseline gap-2">
+				<span
+					class="text-xl md:text-2xl font-serif text-gray-700 capitalize"
+				>
+					{formatDate(today)}
+				</span>
+			</div>
+
+			<div class="w-24 h-px bg-gray-300 mx-auto mt-4"></div>
+		</header>
+
+		{
+			todayData ? (
+				<section class="bg-white border border-gray-200 rounded-2xl p-8 shadow-md space-y-6">
+					{todayData.celebrations.map((c) => (
+						<div
+							class={`border-l-4 ${borderColorClass(c.color)} pl-6`}
+						>
+							<ColorBadge color={c.color} />
+							<CelebrationCard celebration={c} />
+						</div>
+					))}
+				</section>
+			) : (
+				<p>No hay información para este día.</p>
+			)
+		}
+		<div class="flex justify-center my-6">
+			<a
+				href={`/vistaMes/${today.getFullYear()}/${today.getMonth()}`}
+				class="w-full max-w-xs text-center inline-flex gap-2 border border-gray-300 px-5 py-2 rounded-lg text-sm font-medium hover:bg-gray-100 transition"
+			>
+				Ver calendario del mes
+			</a>
+		</div>
+		<section>
+			<h2 class="text-xl font-serif my-4">Próximos días</h2>
+
+			<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+				{
+					upcoming.map((day) => (
+						<div
+							class={`bg-white border ${borderColorClass(day.celebrations[0]?.color)} rounded-xl p-4 space-y-2 hover:shadow-sm transition`}
+						>
+							<p class="font-medium text-sm">{day.date}</p>
+							<p class="text-base text-gray-600">
+								{day.celebrations[0]?.title.es}
+							</p>
+						</div>
+					))
+				}
+			</div>
+		</section>
+	</main>
+</Layout>

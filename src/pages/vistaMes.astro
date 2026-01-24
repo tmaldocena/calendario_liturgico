@@ -1,0 +1,440 @@
+---
+import calendar from "../data/calendar-2026.json";
+import Layout from "../layouts/Layout.astro";
+
+const months: string[] = [
+  "Enero",
+  "Febrero",
+  "Marzo",
+  "Abril",
+  "Mayo",
+  "Junio",
+  "Julio",
+  "Agosto",
+  "Septiembre",
+  "Octubre",
+  "Noviembre",
+  "Diciembre",
+];
+
+
+// Get month/year from query params (Astro.request.url)
+const url = new URL(Astro.request.url);
+const monthParam = url.searchParams.get("month");
+const yearParam = url.searchParams.get("year");
+const month = monthParam ? Number(monthParam) : 0; // Default a enero
+const year = yearParam ? Number(yearParam) : 2026; // Default a 2026
+
+const monthPrefix = `${year}-${String(month + 1).padStart(2, "0")}-`;
+const monthData = calendar.filter(
+  (d) => d.date && d.date.startsWith(monthPrefix),
+);
+const monthDataJson = JSON.stringify(
+  Object.fromEntries(monthData.map((d) => [d.date, d])),
+);
+
+const firstDay = new Date(year, month, 1);
+const startWeekday = (firstDay.getDay() + 6) % 7;
+const daysInMonth = new Date(year, month + 1, 0).getDate();
+
+const cells = [];
+for (let i = 0; i < startWeekday; i++) cells.push(null);
+for (let day = 1; day <= daysInMonth; day++) cells.push(day);
+
+const getDayData = (day: number) => {
+  const dateStr = `${year}-${String(month + 1).padStart(2, "0")}-${String(day).padStart(2, "0")}`;
+  return monthData.find((d) => d.date === dateStr);
+};
+---
+
+<Layout>
+  <main class="bg-[#f7f7f5] min-h-screen">
+    <div class="max-w-6xl mx-auto px-6 py-12 space-y-10">
+      <header
+        class="flex flex-col md:flex-row md:items-end md:justify-between gap-6"
+      >
+        <div class="space-y-2">
+          <a
+            href="/"
+            class="no-print text-sm text-gray-600 hover:text-gray-900"
+          >
+            ← Hoy
+          </a>
+
+          <h1
+            class="text-5xl font-serif font-semibold text-gray-900"
+            id="calendar-title"
+          >
+            {months[month]}
+            {year}
+          </h1>
+
+          <p class="text-gray-600">Calendario litúrgico</p>
+        </div>
+
+        <div class="flex gap-2 items-center">
+          <!-- Botón Mes Anterior -->
+          <a
+            class="no-print border border-gray-300 px-3 py-2 rounded-lg text-sm hover:bg-gray-100 transition"
+            href={`/vistaMes?month=${month === 0 ? 11 : month - 1}&year=${month === 0 ? year - 1 : year}`}
+            aria-label="Mes anterior"
+          >
+            ← Anterior
+          </a>
+          <!-- Botón Mes Siguiente -->
+          <a
+            class="no-print border border-gray-300 px-3 py-2 rounded-lg text-sm hover:bg-gray-100 transition"
+            href={`/vistaMes?month=${month === 11 ? 0 : month + 1}&year=${month === 11 ? year + 1 : year}`}
+            aria-label="Mes siguiente"
+          >
+            Siguiente →
+          </a>
+          <button
+            onclick="window.print()"
+            class="no-print border border-gray-300 px-5 py-2 rounded-lg text-sm hover:bg-gray-100 transition"
+          >
+            Imprimir mes
+          </button>
+        </div>
+      </header>
+      <div>
+        <div class="text-sm text-gray-600 mb-2">
+          Haz clic en un día para ver más detalles.
+        </div>
+      </div>
+      <div
+        class="grid grid-cols-7 text-center text-xs sm:text-sm font-semibold text-gray-700 uppercase tracking-wide sticky top-0 bg-[#f7f7f5] z-20 py-2"
+      >
+        <span>Lun</span><span>Mar</span><span>Mié</span>
+        <span>Jue</span><span>Vie</span><span>Sáb</span><span>Dom</span>
+      </div>
+
+      <section class="calendar-grid grid grid-cols-7 gap-1 sm:gap-2 md:gap-4">
+        {
+          cells.map((day) => {
+            if (!day) return <div />;
+
+            const data = getDayData(day);
+            const celebration = data?.celebrations?.[0];
+            const rawColor = celebration?.color;
+            const color = (() => {
+              if (!rawColor) return null;
+              const map = {
+                blanco: "white",
+                rojo: "red",
+                verde: "green",
+                violeta: "violet",
+                rosa: "rose",
+                negro: "black",
+              };
+              const key = String(rawColor).toLowerCase();
+              return (map as any)[key] ?? key;
+            })();
+            const dateStr = `${year}-${String(month + 1).padStart(2, "0")}-${String(day).padStart(2, "0")}`;
+            const isSunday = new Date(year, month, day).getDay() === 0;
+
+            return (
+              <button
+                type="button"
+                data-date={dateStr}
+                aria-label={`Día ${day}${celebration ? ": " + celebration.title.es : ""}`}
+                class={`
+              relative bg-white border border-gray-200 rounded-xl p-2 sm:p-3 md:p-4
+              aspect-square
+              flex flex-col justify-between
+              hover:shadow-md transition
+              ${isSunday ? "bg-gray-50 border-gray-300" : ""}
+            `}
+              >
+                <span class="text-base sm:text-lg font-serif font-bold text-gray-900">
+                  {day}
+                </span>
+
+                {celebration && (
+                  <span class="text-[10px] sm:text-xs leading-tight text-gray-800 wrap-break-word clamp-2">
+                    {celebration.title.es}
+                  </span>
+                )}
+
+                {color && (
+                  <span
+                    class={`
+                absolute bottom-0 left-0 w-full h-1 sm:h-1.5 rounded-b-xl
+                ${color === "white" && "bg-gray-200"}
+                ${color === "red" && "bg-red-500"}
+                ${color === "green" && "bg-green-600"}
+                ${color === "violet" && "bg-purple-600"}
+                ${color === "rose" && "bg-pink-400"}
+                ${color === "black" && "bg-gray-800"}
+              `}
+                  />
+                )}
+              </button>
+            );
+          })
+        }
+      </section>
+
+      <!-- Day detail modal (centered, animated, improved color bar) -->
+      <div id="day-modal" class="fixed inset-0 hidden z-50 min-h-screen">
+        <div
+          id="modal-backdrop"
+          class="absolute inset-0 bg-black/50 opacity-0 transition-opacity duration-200"
+        >
+        </div>
+        <div
+          class="fixed inset-0 flex items-center justify-center p-4 min-h-screen"
+        >
+          <div
+            id="modal-dialog"
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="modal-title"
+            class="relative bg-white rounded-lg max-w-md w-full p-4 mx-4 shadow-lg transform opacity-0 scale-95 transition-all duration-200"
+          >
+            <!-- nicer top color bar: thicker, rounded top, with subtle shadow and smooth color transitions -->
+            <div
+              id="modal-color-bar"
+              class="absolute inset-x-0 top-0 h-1.5 rounded-t-lg bg-transparent shadow-sm transition-colors duration-200"
+            >
+            </div>
+            <button
+              id="modal-close"
+              class="absolute top-3 right-3 text-gray-500 hover:text-gray-800 z-20"
+              >✕</button
+            >
+            <div class="pt-3">
+              <!-- spacing so title isn't under the color bar -->
+              <h3 id="modal-title" class="text-lg font-semibold"></h3>
+              <p id="modal-weekday" class="text-sm text-gray-600"></p>
+              <div id="modal-content" class="mt-3 text-sm text-gray-800"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Serialized month data for client-side script -->
+      <script
+        type="application/json"
+        id="month-data"
+        set:html={monthDataJson}
+      />
+
+      <script>
+        (function () {
+          const raw =
+            document.getElementById("month-data")?.textContent || "{}";
+          let parsed = {};
+          try {
+            parsed = JSON.parse(raw);
+          } catch (err) {
+            try {
+              parsed = JSON.parse((raw || "").replace(/&quot;/g, '"'));
+            } catch (err2) {
+              console.error("Failed to parse month-data JSON:", err, err2, raw);
+              parsed = {};
+            }
+          }
+          (window as any).CALENDAR_DATA = parsed;
+          console.debug(
+            "CALENDAR_DATA keys:",
+            Object.keys((window as any).CALENDAR_DATA || {}).length,
+          );
+
+          const modal = document.getElementById("day-modal");
+          if (!modal) return;
+          const m = modal as HTMLElement;
+          const backdrop = document.getElementById("modal-backdrop");
+          const dialog = document.getElementById("modal-dialog");
+          const colorBar = document.getElementById("modal-color-bar");
+
+          // Ensure backdrop/dialog occupy full viewport on mobile (use 100dvh-friendly sizing if needed)
+          (backdrop as HTMLElement | null)?.style.setProperty(
+            "min-height",
+            "100dvh",
+          );
+          (m as HTMLElement | null)?.style.setProperty("min-height", "100dvh");
+          const titleEl = document.getElementById("modal-title");
+          const weekdayEl = document.getElementById("modal-weekday");
+          const contentEl = document.getElementById("modal-content");
+          const closeBtn = document.getElementById("modal-close");
+
+          function setColorBar(colorName: string | undefined) {
+            if (!colorBar) return;
+            const map: Record<string, string> = {
+              blanco: "bg-gray-200",
+              rojo: "bg-red-500",
+              verde: "bg-green-600",
+              violeta: "bg-purple-600",
+              rosa: "bg-pink-400",
+              negro: "bg-gray-800",
+            };
+            const key = String(colorName || "").toLowerCase();
+            const cls = map[key] ?? "bg-transparent";
+            // top bar with rounded top corners, slight shadow and smooth transitions
+            colorBar.className =
+              "absolute inset-x-0 top-0 h-1.5 rounded-t-lg shadow-sm transition-colors duration-200 " +
+              cls;
+          }
+
+          function openModal(date: string) {
+            const data = (window as any).CALENDAR_DATA[date];
+            if (!data) return console.warn("No data for date", date);
+            const celebration = data.celebrations && data.celebrations[0];
+            if (titleEl) titleEl.textContent = celebration?.title?.es || "—";
+            if (weekdayEl)
+              weekdayEl.textContent = `${data.weekday?.es || ""} • ${data.date}`;
+
+            let html = "";
+            if (celebration) {
+              html += `<p class="font-medium">${celebration.title?.es || ""}</p>`;
+              if (celebration.rank)
+                html += `<p><strong>Rango:</strong> ${celebration.rank?.es || ""}</p>`;
+              if (celebration.color)
+                html += `<p><strong>Color:</strong> ${celebration.color}</p>`;
+              if (celebration.fasting)
+                html += `<p><strong>Ayuno:</strong> ${celebration.fasting}</p>`;
+              if (celebration.misc) html += `<p>${celebration.misc}</p>`;
+            } else {
+              html = "<p>No hay celebraciones registradas.</p>";
+            }
+
+            if (contentEl) contentEl.innerHTML = html;
+
+            // set color bar
+            setColorBar(celebration?.color);
+
+            // show with animation
+            m.classList.remove("hidden");
+            m.classList.add("flex");
+            // force a frame then remove starting classes to trigger transition
+            requestAnimationFrame(() => {
+              dialog?.classList.remove("opacity-0", "scale-95");
+              dialog?.classList.add("opacity-100", "scale-100");
+              backdrop?.classList.remove("opacity-0");
+              backdrop?.classList.add("opacity-100");
+            });
+
+            document.body.style.overflow = "hidden";
+            closeBtn?.focus();
+            document.addEventListener("keydown", onKey);
+          }
+
+          function closeModal() {
+            // animate out
+            dialog?.classList.remove("opacity-100", "scale-100");
+            dialog?.classList.add("opacity-0", "scale-95");
+            backdrop?.classList.remove("opacity-100");
+            backdrop?.classList.add("opacity-0");
+
+            // wait for transition then hide
+            const duration = 220; // slightly longer than CSS
+            setTimeout(() => {
+              m.classList.remove("flex");
+              m.classList.add("hidden");
+              document.body.style.overflow = "";
+            }, duration);
+
+            document.removeEventListener("keydown", onKey);
+          }
+
+          function onKey(e: KeyboardEvent) {
+            if (e.key === "Escape") closeModal();
+          }
+
+          closeBtn?.addEventListener("click", closeModal);
+          backdrop?.addEventListener("click", closeModal);
+
+          const nodes = document.querySelectorAll("[data-date]");
+          console.debug("day elements found:", nodes.length);
+          nodes.forEach((el) => {
+            const eln = el as HTMLElement;
+            eln.addEventListener("click", () =>
+              openModal(eln.dataset.date || ""),
+            );
+            eln.addEventListener("keydown", (ev: KeyboardEvent) => {
+              if (ev.key === "Enter" || ev.key === " ") {
+                ev.preventDefault();
+                openModal(eln.dataset.date || "");
+              }
+            });
+          });
+        })();
+      </script>
+    </div>
+    <script>
+      // This runs only in the browser
+      (function () {
+        const params = new URLSearchParams(window.location.search);
+        const month = Number(params.get("month")) || 0;
+        const year = Number(params.get("year")) || 2026;
+
+        // Update the title as an example (you can update more as needed)
+        const months = [
+          "Enero",
+          "Febrero",
+          "Marzo",
+          "Abril",
+          "Mayo",
+          "Junio",
+          "Julio",
+          "Agosto",
+          "Septiembre",
+          "Octubre",
+          "Noviembre",
+          "Diciembre",
+        ];
+        const title = document.getElementById("calendar-title");
+        if (title) title.textContent = `${months[month]} ${year}`;
+
+        // If you want to reload the page with new data, you could trigger a navigation or re-render here.
+        // For a full dynamic calendar, consider using a framework like React/Vue/Svelte with Astro islands.
+      })();
+    </script>
+  </main>
+</Layout>
+
+<style>
+  @media print {
+    a.no-print,
+    .no-print {
+      display: none !important;
+    }
+    body {
+      background: white;
+    }
+    .calendar-grid {
+      gap: 10px;
+    }
+    .calendar-grid div,
+    .calendar-grid button {
+      box-shadow: none !important;
+    }
+    .calendar-grid button {
+      -webkit-print-color-adjust: exact;
+      page-break-inside: avoid;
+    }
+    /* hide interactive modal from print */
+    #day-modal,
+    #modal-backdrop,
+    #modal-dialog {
+      display: none !important;
+    }
+  }
+
+  /* Clamp long celebration titles to two lines with ellipsis */
+  .clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-word;
+  }
+</style>
+
+<!--
+  Nota: Esta página está en desuso y será eliminada en el futuro.
+  Usa el nuevo enrutamiento dinámico para vistas de meses: /vistaMes?month=x&year=y
+  Opcionalmente, puedes eliminar o reemplazar este archivo con una redirección al nuevo enrutamiento dinámico.
+-->
