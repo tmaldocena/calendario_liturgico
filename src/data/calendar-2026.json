@@ -706,9 +706,9 @@
   "weekday": { "es": "Domingo", "en": "Sunday" },
   "celebrations": [
     {
-      "title": { "es": "Quinto Domingo después de Epifanía", "en": "Fifth Sunday after Epiphany" },
+      "title": { "es": "Domingo de Septuagésima", "en": "Sunday of the Seventieth" },
       "rank": { "es": "Semi doble", "en": "Semi-double" },
-      "color": "Verde",
+      "color": "Violeta",
       "fasting": null,
       "misc": null
     }
@@ -723,7 +723,7 @@
       "rank": { "es": "Doble segunda clase", "en": "Double of the Second Class" },
       "color": "Blanco",
       "fasting": null,
-      "misc": "Bendición de las candelas"
+      "misc": "Fiesta de la Candelaria"
     }
   ]
 },
@@ -736,7 +736,7 @@
       "rank": { "es": "Doble", "en": "Double" },
       "color": "Rojo",
       "fasting": null,
-      "misc": "Bendición de las gargantas"
+      "misc": null
     }
   ]
 },
@@ -775,7 +775,7 @@
       "rank": { "es": "Semi doble", "en": "Semi-double" },
       "color": "Blanco",
       "fasting": "abstinence",
-      "misc": null
+      "misc": "1er Viernes"
     }
   ]
 },
@@ -788,7 +788,7 @@
       "rank": { "es": "Doble", "en": "Double" },
       "color": "Blanco",
       "fasting": null,
-      "misc": null
+      "misc": "1er Sábado"
     }
   ]
 },
@@ -797,9 +797,9 @@
   "weekday": { "es": "Domingo", "en": "Sunday" },
   "celebrations": [
     {
-      "title": { "es": "Sexto Domingo después de Epifanía", "en": "Sixth Sunday after Epiphany" },
+      "title": { "es": "Domingo de Sexagésima", "en": "Sixtieth Sunday" },
       "rank": { "es": "Semi doble", "en": "Semi-double" },
-      "color": "Verde",
+      "color": "Violeta",
       "fasting": null,
       "misc": null
     }
@@ -810,9 +810,9 @@
   "weekday": { "es": "Lunes", "en": "Monday" },
   "celebrations": [
     {
-      "title": { "es": "Santa Apolonia, Virgen y Mártir", "en": "Saint Apollonia, Virgin and Martyr" },
+      "title": { "es": "San Cirilo de Alejandría, Obispo, Confesor y Doctor", "en": "Saint Cirilo of Alexandria, Bishop, Confessor and Doctor" },
       "rank": { "es": "Doble", "en": "Double" },
-      "color": "Rojo",
+      "color": "Blanco",
       "fasting": null,
       "misc": null
     }
@@ -836,7 +836,7 @@
   "weekday": { "es": "Miércoles", "en": "Wednesday" },
   "celebrations": [
     {
-      "title": { "es": "Nuestra Señora de Lourdes", "en": "Our Lady of Lourdes" },
+      "title": { "es": "Aparición de Nuestra Señora de Lourdes", "en": "Our Lady of Lourdes" },
       "rank": { "es": "Doble", "en": "Double" },
       "color": "Blanco",
       "fasting": null,
@@ -864,7 +864,7 @@
     {
       "title": { "es": "Feria", "en": "Feria" },
       "rank": { "es": "Feria", "en": "Feria" },
-      "color": "Verde",
+      "color": "Violeta",
       "fasting": "abstinence",
       "misc": null
     }
@@ -875,9 +875,9 @@
   "weekday": { "es": "Sábado", "en": "Saturday" },
   "celebrations": [
     {
-      "title": { "es": "San Valentín, Presbítero y Mártir", "en": "Saint Valentine, Priest and Martyr" },
+      "title": { "es": "Santa María in Sabbato", "en": "Saint Mary on Saturday" },
       "rank": { "es": "Simple", "en": "Simple" },
-      "color": "Rojo",
+      "color": "Blanco",
       "fasting": null,
       "misc": null
     }
@@ -888,7 +888,7 @@
   "weekday": { "es": "Domingo", "en": "Sunday" },
   "celebrations": [
     {
-      "title": { "es": "Septuagésima", "en": "Septuagesima" },
+      "title": { "es": "Domingo de Quincuagésima", "en": "Fiftieth Sunday" },
       "rank": { "es": "Semi doble", "en": "Semi-double" },
       "color": "Violeta",
       "fasting": null,
@@ -901,7 +901,7 @@
   "weekday": { "es": "Lunes", "en": "Monday" },
   "celebrations": [
     {
-      "title": { "es": "Feria de Septuagésima", "en": "Feria of Septuagesima" },
+      "title": { "es": "Feria", "en": "Feria" },
       "rank": { "es": "Feria", "en": "Feria" },
       "color": "Violeta",
       "fasting": null,
@@ -914,7 +914,7 @@
   "weekday": { "es": "Martes", "en": "Tuesday" },
   "celebrations": [
     {
-      "title": { "es": "Feria de Septuagésima", "en": "Feria of Septuagesima" },
+      "title": { "es": "Feria", "en": "Feria" },
       "rank": { "es": "Feria", "en": "Feria" },
       "color": "Violeta",
       "fasting": null,
@@ -943,7 +943,7 @@
       "title": { "es": "Feria después de Ceniza", "en": "Feria after Ash Wednesday" },
       "rank": { "es": "Feria", "en": "Feria" },
       "color": "Violeta",
-      "fasting": null,
+      "fasting": "fasting",
       "misc": null
     }
   ]
@@ -956,7 +956,7 @@
       "title": { "es": "Feria después de Ceniza", "en": "Feria after Ash Wednesday" },
       "rank": { "es": "Feria", "en": "Feria" },
       "color": "Violeta",
-      "fasting": "abstinence",
+      "fasting": "fasting-and-abstinence",
       "misc": null
     }
   ]
@@ -969,7 +969,7 @@
       "title": { "es": "Feria después de Ceniza", "en": "Feria after Ash Wednesday" },
       "rank": { "es": "Feria", "en": "Feria" },
       "color": "Violeta",
-      "fasting": null,
+      "fasting": "fasting-and-abstinence",
       "misc": null
     }
   ]
@@ -979,7 +979,7 @@
   "weekday": { "es": "Domingo", "en": "Sunday" },
   "celebrations": [
     {
-      "title": { "es": "Domingo de Sexagésima", "en": "Sexagesima Sunday" },
+      "title": { "es": "Primer Domingo de Cuaresma", "en": "First Sunday of Lent" },
       "rank": { "es": "Semi doble", "en": "Semi-double" },
       "color": "Violeta",
       "fasting": null,
@@ -995,7 +995,7 @@
       "title": { "es": "San Pedro Damián, Obispo y Doctor de la Iglesia", "en": "Saint Peter Damian, Bishop and Doctor of the Church" },
       "rank": { "es": "Doble", "en": "Double" },
       "color": "Blanco",
-      "fasting": null,
+      "fasting": "fasting",
       "misc": null
     }
   ]
@@ -1008,7 +1008,7 @@
       "title": { "es": "San Matías, Apóstol", "en": "Saint Matthias, Apostle" },
       "rank": { "es": "Doble segunda clase", "en": "Double of the Second Class" },
       "color": "Rojo",
-      "fasting": null,
+      "fasting": "fasting",
       "misc": null
     }
   ]
@@ -1018,11 +1018,11 @@
   "weekday": { "es": "Miércoles", "en": "Wednesday" },
   "celebrations": [
     {
-      "title": { "es": "Feria de Cuaresma", "en": "Lenten Feria" },
+      "title": { "es": "Miércoles de Cuatro Témporas", "en": "Ember Day Wednesday" },
       "rank": { "es": "Feria", "en": "Feria" },
       "color": "Violeta",
-      "fasting": null,
-      "misc": null
+      "fasting": "fasting",
+      "misc": "Miércoles de Cuatro Témporas"
     }
   ]
 },
@@ -1034,7 +1034,7 @@
       "title": { "es": "Feria de Cuaresma", "en": "Lenten Feria" },
       "rank": { "es": "Feria", "en": "Feria" },
       "color": "Violeta",
-      "fasting": null,
+      "fasting": "fasting",
       "misc": null
     }
   ]
@@ -1044,11 +1044,11 @@
   "weekday": { "es": "Viernes", "en": "Friday" },
   "celebrations": [
     {
-      "title": { "es": "Feria de Cuaresma", "en": "Lenten Feria" },
-      "rank": { "es": "Feria", "en": "Feria" },
+      "title": { "es": "San Gabriel de la Dolorosa, Confesor", "en": "Saint Gabriel of Our Lady of Sorrows, Confessor" },
+      "rank": { "es": "Doble", "en": "Double" },
       "color": "Violeta",
-      "fasting": "abstinence",
-      "misc": null
+      "fasting": "fasting-and-abstinence",
+      "misc": "Viernes de Cuatro Témporas"
     }
   ]
 },
@@ -1057,11 +1057,11 @@
   "weekday": { "es": "Sábado", "en": "Saturday" },
   "celebrations": [
     {
-      "title": { "es": "Feria de Cuaresma", "en": "Lenten Feria" },
+      "title": { "es": "Sábado de Cuatro Témporas", "en": "Lenten Feria" },
       "rank": { "es": "Feria", "en": "Feria" },
       "color": "Violeta",
-      "fasting": null,
-      "misc": null
+      "fasting": "fasting-and-abstinence",
+      "misc": "Sábado de Cuatro Témporas"
     }
   ]
 },
@@ -1070,11 +1070,11 @@
   "weekday": { "es": "Domingo", "en": "Sunday" },
   "celebrations": [
     {
-      "title": { "es": "Segundo Domingo de Cuaresma", "en": "Second Sunday of Lent" },
-      "rank": { "es": "Semi doble", "en": "Semi-double" },
+      "title": { "es": "Segundo Domingo de Cuaresma", "en": "Ember Day Saturday" },
+      "rank": { "es": "Feria mayor", "en": "Greater Feria" },
       "color": "Violeta",
-      "fasting": null,
-      "misc": null
+      "fasting": "fasting-and-abstinence",
+      "misc": "Sábado de Cuatro Témporas"
     }
   ]
 },
