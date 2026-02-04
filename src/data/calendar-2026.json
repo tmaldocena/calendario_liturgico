@@ -1021,7 +1021,7 @@
       "title": { "es": "Miércoles de Cuatro Témporas", "en": "Ember Day Wednesday" },
       "rank": { "es": "Feria", "en": "Feria" },
       "color": "Violeta",
-      "fasting": "fasting",
+      "fasting": "fasting-and-abstinence",
       "misc": "Miércoles de Cuatro Témporas"
     }
   ]
