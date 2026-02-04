@@ -253,7 +253,13 @@ const getDayData = (day: number) => {
           function openModal(date) {
             const data = window.CALENDAR_DATA[date];
             if (!data) return console.warn("No data for date", date);
+            var ayuno = "No"
             const celebration = data.celebrations && data.celebrations[0];
+
+            if(celebration.fasting == "fasting") ayuno = "Ayuno"
+            if(celebration.fasting == "abstinence") ayuno = "Abstinencia"
+            if(celebration.fasting == "fasting-and-abstinence") ayuno = "Ayuno y Abstinencia"
+
             if (titleEl) titleEl.textContent = celebration?.title?.es || "—";
             if (weekdayEl)
               weekdayEl.textContent = `${data.weekday?.es || ""} • ${data.date}`;
@@ -266,7 +272,7 @@ const getDayData = (day: number) => {
               if (celebration.color)
                 html += `<p><strong>Color:</strong> ${celebration.color}</p>`;
               if (celebration.fasting)
-                html += `<p><strong>Ayuno:</strong> ${celebration.fasting}</p>`;
+                html += `<p><strong>Ayuno:</strong> ${ayuno}</p>`;
               if (celebration.misc) html += `<p>${celebration.misc}</p>`;
             } else {
               html = "<p>No hay celebraciones registradas.</p>";
