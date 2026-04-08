@@ -1650,9 +1650,9 @@
   "weekday": { "es": "Lunes", "en": "Monday" },
   "celebrations": [
     {
-      "title": { "es": "Feria de Pascua", "en": "Easter Feria" },
-      "rank": { "es": "Feria", "en": "Feria" },
-      "color": "Blanco",
+      "title": { "es": "San Hermenegildo, Martir", "en": "Saint Hermenegildo, Martyr" },
+      "rank": { "es": "Semi doble", "en": "Semi-double" },
+      "color": "Rojo",
       "fasting": null,
       "misc": null
     }
@@ -1663,9 +1663,9 @@
   "weekday": { "es": "Martes", "en": "Tuesday" },
   "celebrations": [
     {
-      "title": { "es": "Feria de Pascua", "en": "Easter Feria" },
-      "rank": { "es": "Feria", "en": "Feria" },
-      "color": "Blanco",
+      "title": { "es": "San Justino", "en": "Saint Justine, Martyr" },
+      "rank": { "es": "Doble", "en": "Double" },
+      "color": "Rojo",
       "fasting": null,
       "misc": null
     }
@@ -1702,9 +1702,9 @@
   "weekday": { "es": "Viernes", "en": "Friday" },
   "celebrations": [
     {
-      "title": { "es": "Feria de Pascua", "en": "Easter Feria" },
-      "rank": { "es": "Feria", "en": "Feria" },
-      "color": "Blanco",
+      "title": { "es": "San Aniceto, Martir", "en": "Saint Aniceto, Martyr" },
+      "rank": { "es": "Simple", "en": "Simple" },
+      "color": "Rojo",
       "fasting": null,
       "misc": "No hay abstinencia"
     }
@@ -1715,8 +1715,8 @@
   "weekday": { "es": "Sábado", "en": "Saturday" },
   "celebrations": [
     {
-      "title": { "es": "Feria de Pascua", "en": "Easter Feria" },
-      "rank": { "es": "Feria", "en": "Feria" },
+      "title": { "es": "Santa María in Sabbato", "en": "Saint Mary on Saturday" },
+      "rank": { "es": "Simple", "en": "Simple" },
       "color": "Blanco",
       "fasting": null,
       "misc": null
@@ -1767,9 +1767,9 @@
   "weekday": { "es": "Miércoles", "en": "Wednesday" },
   "celebrations": [
     {
-      "title": { "es": "Santos Sotero y Cayo, Papas y Mártires", "en": "Saints Soter and Caius, Popes and Martyrs" },
-      "rank": { "es": "Semi doble", "en": "Semi-double" },
-      "color": "Rojo",
+      "title": { "es": "Patrocinio de San José", "en": "Sponsorship of Saint Joseph" },
+      "rank": { "es": "Doble de Primera Clase", "en": "Double of First Class" },
+      "color": "Blanco",
       "fasting": null,
       "misc": null
     }
@@ -1858,9 +1858,9 @@
   "weekday": { "es": "Miércoles", "en": "Wednesday" },
   "celebrations": [
     {
-      "title": { "es": "San Pedro Mártir de Verona", "en": "Saint Peter of Verona, Martyr" },
-      "rank": { "es": "Doble", "en": "Double" },
-      "color": "Rojo",
+      "title": { "es": "Día de la Octava de San José", "en": "Day of the Octave of Saint Joseph" },
+      "rank": { "es": "Doble mayor", "en": "Major Double" },
+      "color": "Blanco",
       "fasting": null,
       "misc": null
     }
