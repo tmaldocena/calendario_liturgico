@@ -4175,20 +4175,21 @@
   "date": "2026-08-16",
   "weekday": { "es": "Domingo", "en": "Sunday" },
   "celebrations": [
+          {
+      "title": { "es": "San Joaquín, Padre de la BVM", "en": "Saint Joachim, Father of the Blessed Virgin Mary" },
+      "rank": { "es": "Semi doble", "en": "Semi-double" },
+      "color": "Verde",
+      "fasting": null,
+      "misc": "Infraoctava de la Asunción"
+    },
     {
       "title": { "es": "Duodécimo Domingo después de Pentecostés", "en": "Twelfth Sunday after Pentecost" },
       "rank": { "es": "Semi doble", "en": "Semi-double" },
       "color": "Verde",
       "fasting": null,
       "misc": null
-    },
-    {
-      "title": { "es": "San Joaquín, Padre de la BVM", "en": "Saint Joachim, Father of the Blessed Virgin Mary" },
-      "rank": { "es": "Semi doble", "en": "Semi-double" },
-      "color": "Verde",
-      "fasting": null,
-      "misc": "Infraoctava de la Asunción"
     }
+
   ]
 },
 {
