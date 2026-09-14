@@ -4632,7 +4632,7 @@
       "title": { "es": "Santas Eufemia, Virgen, Santa Lucía y Germiniano, Mártires", "en": "Saint Euphemia, Virgin, Saint Lucy and Geminianus, Martyrs" },
       "rank": { "es": "Semidoble", "en": "Semi-double" },
       "color": "Rojo",
-      "fasting": "fasting_and_abstinence",
+      "fasting": "fasting-and-abstinence",
       "misc": null
     }
   ]
@@ -4658,7 +4658,7 @@
       "title": { "es": "San José de Cupertino, Confesor", "en": "Saint Joseph of Cupertino, Confessor" },
       "rank": { "es": "Doble", "en": "Double" },
       "color": "Blanco",
-      "fasting": "fasting_and_abstinence",
+      "fasting": "fasting-and-abstinence",
       "misc": "Viernes de Témporas"
     }
   ]
@@ -4671,14 +4671,14 @@
       "title": { "es": "San Jenaro, Obispo y Compañeros, Mártires", "en": "Saint Januarius, Bishop and Companions, Martyrs" },
       "rank": { "es": "Doble", "en": "Double" },
       "color": "Rojo",
-      "fasting": "fasting_and_abstinence",
+      "fasting": "fasting-and-abstinence",
       "misc": "Sábado de Témporas"
     },
     {
       "title": { "es": "Vigilia de San Mateo", "en": "Vigil of Saint Matthew" },
       "rank": { "es": "Doble", "en": "Double" },
       "color": "Rojo",
-      "fasting": "fasting_and_abstinence",
+      "fasting": "fasting-and-abstinence",
       "misc": null
     }
   ]
@@ -4860,6 +4860,2224 @@
       "misc": null
     }
   ]
+},
+    {
+  "date": "2026-10-01",
+  "weekday": { "es": "Jueves", "en": "Thursday" },
+  "celebrations": [
+    {
+      "title": { "es": "San Remigio, Obispo y Confesor", "en": "Saint Remigius, Bishop and Confessor" },
+      "rank": { "es": "Simple", "en": "Simple" },
+      "color": "Blanco",
+      "fasting": null,
+      "misc": null
+    }
+  ]
+},
+{
+  "date": "2026-10-02",
+  "weekday": { "es": "Viernes", "en": "Friday" },
+  "celebrations": [
+    {
+      "title": { "es": "Los Santos Ángeles Custodios", "en": "The Holy Guardian Angels" },
+      "rank": { "es": "Doble Mayor", "en": "Greater Double" },
+      "color": "Blanco",
+      "fasting": "abstinence",
+      "misc": "1er Viernes"
+    }
+  ]
+},
+{
+  "date": "2026-10-03",
+  "weekday": { "es": "Sábado", "en": "Saturday" },
+  "celebrations": [
+    {
+      "title": { "es": "Santa Teresa del Niño Jesús, Virgen", "en": "Saint Thérèse of the Child Jesus, Virgin" },
+      "rank": { "es": "Doble", "en": "Double" },
+      "color": "Blanco",
+      "fasting": null,
+      "misc": "1er Sábado"
+    }
+  ]
+},
+{
+  "date": "2026-10-04",
+  "weekday": { "es": "Domingo", "en": "Sunday" },
+  "celebrations": [
+    {
+      "title": { "es": "Solemnidad de Ntra. Sra. del Santísimo Rosario", "en": "Solemnity of Our Lady of the Most Holy Rosary" },
+      "rank": { "es": "Doble Mayor", "en": "Greater Double" },
+      "color": "Blanco",
+      "fasting": null,
+      "misc": null
+    },
+    {
+      "title": { "es": "Decimonoveno Domingo después de Pentecostés", "en": "Nineteenth Sunday after Pentecost" },
+      "rank": { "es": "Doble Mayor", "en": "Greater Double" },
+      "color": "Blanco",
+      "fasting": null,
+      "misc": null
+    },
+    {
+      "title": { "es": "San Francisco de Asís, Confesor", "en": "Saint Francis of Assisi, Confessor" },
+      "rank": { "es": "Doble Mayor", "en": "Greater Double" },
+      "color": "Blanco",
+      "fasting": null,
+      "misc": null
+    }
+  ]
+},
+{
+  "date": "2026-10-05",
+  "weekday": { "es": "Lunes", "en": "Monday" },
+  "celebrations": [
+    {
+      "title": { "es": "Misa del Decimonoveno Domingo después de Pentecostés", "en": "Mass of the Nineteenth Sunday after Pentecost" },
+      "rank": { "es": "Simple", "en": "Simple" },
+      "color": "Verde",
+      "fasting": null,
+      "misc": null
+    },
+    {
+      "title": { "es": "San Plácido y Compañeros, Mártires", "en": "Saint Placid and Companions, Martyrs" },
+      "rank": { "es": "Simple", "en": "Simple" },
+      "color": "Verde",
+      "fasting": null,
+      "misc": null
+    }
+  ]
+},
+{
+  "date": "2026-10-06",
+  "weekday": { "es": "Martes", "en": "Tuesday" },
+  "celebrations": [
+    {
+      "title": { "es": "San Bruno, Confesor", "en": "Saint Bruno, Confessor" },
+      "rank": { "es": "Doble", "en": "Double" },
+      "color": "Blanco",
+      "fasting": null,
+      "misc": null
+    }
+  ]
+},
+{
+  "date": "2026-10-07",
+  "weekday": { "es": "Miércoles", "en": "Wednesday" },
+  "celebrations": [
+    {
+      "title": { "es": "Nuestra Señora del Santísimo Rosario", "en": "Our Lady of the Most Holy Rosary" },
+      "rank": { "es": "Doble de Segunda Clase", "en": "Double of the Second Class" },
+      "color": "Blanco",
+      "fasting": null,
+      "misc": null
+    },
+    {
+      "title": { "es": "San Marcos, Papa y Confesor", "en": "Saint Mark, Pope and Confessor" },
+      "rank": { "es": "Doble de Segunda Clase", "en": "Double of the Second Class" },
+      "color": "Blanco",
+      "fasting": null,
+      "misc": null
+    },
+    {
+      "title": { "es": "San Sergio y Compañeros, Mártires", "en": "Saint Sergius and Companions, Martyrs" },
+      "rank": { "es": "Doble de Segunda Clase", "en": "Double of the Second Class" },
+      "color": "Blanco",
+      "fasting": null,
+      "misc": null
+    }
+  ]
+},
+{
+  "date": "2026-10-08",
+  "weekday": { "es": "Jueves", "en": "Thursday" },
+  "celebrations": [
+    {
+      "title": { "es": "Santa Brígida, Viuda", "en": "Saint Bridget, Widow" },
+      "rank": { "es": "Doble", "en": "Double" },
+      "color": "Blanco",
+      "fasting": null,
+      "misc": null
+    }
+  ]
+},
+{
+  "date": "2026-10-09",
+  "weekday": { "es": "Viernes", "en": "Friday" },
+  "celebrations": [
+    {
+      "title": { "es": "San Juan Leonardi", "en": "Saint John Leonardi" },
+      "rank": { "es": "Doble", "en": "Double" },
+      "color": "Blanco",
+      "fasting": "abstinence",
+      "misc": null
+    },
+    {
+      "title": { "es": "San Dionisio, Obispo y Compañeros, Mártires", "en": "Saint Denis, Bishop and Companions, Martyrs" },
+      "rank": { "es": "Doble", "en": "Double" },
+      "color": "Blanco",
+      "fasting": "abstinence",
+      "misc": null
+    }
+  ]
+},
+{
+  "date": "2026-10-10",
+  "weekday": { "es": "Sábado", "en": "Saturday" },
+  "celebrations": [
+    {
+      "title": { "es": "San Francisco de Borja, Confesor", "en": "Saint Francis Borgia, Confessor" },
+      "rank": { "es": "Semi doble", "en": "Semi-double" },
+      "color": "Blanco",
+      "fasting": null,
+      "misc": null
+    }
+  ]
+},
+{
+  "date": "2026-10-11",
+  "weekday": { "es": "Domingo", "en": "Sunday" },
+  "celebrations": [
+    {
+      "title": { "es": "La Maternidad de la Bienaventurada Virgen María", "en": "The Maternity of the Blessed Virgin Mary" },
+      "rank": { "es": "Doble de Segunda Clase", "en": "Double of the Second Class" },
+      "color": "Blanco",
+      "fasting": null,
+      "misc": null
+    },
+    {
+      "title": { "es": "Vigésimo Domingo después de Pentecostés", "en": "Twentieth Sunday after Pentecost" },
+      "rank": { "es": "Doble de Segunda Clase", "en": "Double of the Second Class" },
+      "color": "Blanco",
+      "fasting": null,
+      "misc": null
+    }
+  ]
+},
+{
+  "date": "2026-10-12",
+  "weekday": { "es": "Lunes", "en": "Monday" },
+  "celebrations": [
+    {
+      "title": { "es": "Misa del Vigésimo Domingo después de Pentecostés", "en": "Mass of the Twentieth Sunday after Pentecost" },
+      "rank": { "es": "Simple", "en": "Simple" },
+      "color": "Verde",
+      "fasting": null,
+      "misc": null
+    }
+  ]
+},
+{
+  "date": "2026-10-13",
+  "weekday": { "es": "Martes", "en": "Tuesday" },
+  "celebrations": [
+    {
+      "title": { "es": "San Eduardo Rey de Inglaterra, Confesor", "en": "Saint Edward King of England, Confessor" },
+      "rank": { "es": "Semi doble", "en": "Semi-double" },
+      "color": "Blanco",
+      "fasting": null,
+      "misc": null
+    }
+  ]
+},
+{
+  "date": "2026-10-14",
+  "weekday": { "es": "Miércoles", "en": "Wednesday" },
+  "celebrations": [
+    {
+      "title": { "es": "San Calixto I, Papa y Mártir", "en": "Saint Callistus I, Pope and Martyr" },
+      "rank": { "es": "Doble", "en": "Double" },
+      "color": "Rojo",
+      "fasting": null,
+      "misc": null
+    }
+  ]
+},
+{
+  "date": "2026-10-15",
+  "weekday": { "es": "Jueves", "en": "Thursday" },
+  "celebrations": [
+    {
+      "title": { "es": "Santa Teresa de Jesús, Virgen", "en": "Saint Teresa of Jesus, Virgin" },
+      "rank": { "es": "Doble", "en": "Double" },
+      "color": "Blanco",
+      "fasting": null,
+      "misc": null
+    }
+  ]
+},
+{
+  "date": "2026-10-16",
+  "weekday": { "es": "Viernes", "en": "Friday" },
+  "celebrations": [
+    {
+      "title": { "es": "Santa Eduvigis, Viuda", "en": "Saint Hedwig, Widow" },
+      "rank": { "es": "Semi doble", "en": "Semi-double" },
+      "color": "Blanco",
+      "fasting": "abstinence",
+      "misc": null
+    }
+  ]
+},
+{
+  "date": "2026-10-17",
+  "weekday": { "es": "Sábado", "en": "Saturday" },
+  "celebrations": [
+    {
+      "title": { "es": "Santa Margarita María Alacoque, Virgen", "en": "Saint Margaret Mary Alacoque, Virgin" },
+      "rank": { "es": "Doble", "en": "Double" },
+      "color": "Blanco",
+      "fasting": null,
+      "misc": null
+    }
+  ]
+},
+{
+  "date": "2026-10-18",
+  "weekday": { "es": "Domingo", "en": "Sunday" },
+  "celebrations": [
+    {
+      "title": { "es": "San Lucas, Evangelista", "en": "Saint Luke, Evangelist" },
+      "rank": { "es": "Doble de Segunda Clase", "en": "Double of the Second Class" },
+      "color": "Rojo",
+      "fasting": null,
+      "misc": "Colecta por las Misiones"
+    },
+    {
+      "title": { "es": "Vigesimoprimer Domingo después de Pentecostés", "en": "Twenty-first Sunday after Pentecost" },
+      "rank": { "es": "Doble de Segunda Clase", "en": "Double of the Second Class" },
+      "color": "Rojo",
+      "fasting": null,
+      "misc": null
+    }
+  ]
+},
+{
+  "date": "2026-10-19",
+  "weekday": { "es": "Lunes", "en": "Monday" },
+  "celebrations": [
+    {
+      "title": { "es": "San Pedro de Alcántara, Confesor", "en": "Saint Peter of Alcantara, Confessor" },
+      "rank": { "es": "Doble", "en": "Double" },
+      "color": "Blanco",
+      "fasting": null,
+      "misc": null
+    }
+  ]
+},
+{
+  "date": "2026-10-20",
+  "weekday": { "es": "Martes", "en": "Tuesday" },
+  "celebrations": [
+    {
+      "title": { "es": "San Juan Cancio, Confesor", "en": "Saint John Cantius, Confessor" },
+      "rank": { "es": "Doble", "en": "Double" },
+      "color": "Blanco",
+      "fasting": null,
+      "misc": null
+    }
+  ]
+},
+{
+  "date": "2026-10-21",
+  "weekday": { "es": "Miércoles", "en": "Wednesday" },
+  "celebrations": [
+    {
+      "title": { "es": "Misa del Vigesimoprimer Domingo después de Pentecostés", "en": "Mass of the Twenty-first Sunday after Pentecost" },
+      "rank": { "es": "Simple", "en": "Simple" },
+      "color": "Verde",
+      "fasting": null,
+      "misc": null
+    },
+    {
+      "title": { "es": "San Hilarión, Abad", "en": "Saint Hilarion, Abbot" },
+      "rank": { "es": "Simple", "en": "Simple" },
+      "color": "Verde",
+      "fasting": null,
+      "misc": null
+    },
+    {
+      "title": { "es": "Santa Úrsula y Compañeras, Vírgenes y Mártires", "en": "Saint Ursula and Companions, Virgins and Martyrs" },
+      "rank": { "es": "Simple", "en": "Simple" },
+      "color": "Verde",
+      "fasting": null,
+      "misc": null
+    }
+  ]
+},
+{
+  "date": "2026-10-22",
+  "weekday": { "es": "Jueves", "en": "Thursday" },
+  "celebrations": [
+    {
+      "title": { "es": "De Feria", "en": "Feria" },
+      "rank": { "es": "Simple", "en": "Simple" },
+      "color": "Verde",
+      "fasting": null,
+      "misc": "Misa del Domingo precedente"
+    }
+  ]
+},
+{
+  "date": "2026-10-23",
+  "weekday": { "es": "Viernes", "en": "Friday" },
+  "celebrations": [
+    {
+      "title": { "es": "De Feria", "en": "Feria" },
+      "rank": { "es": "Simple", "en": "Simple" },
+      "color": "Verde",
+      "fasting": "abstinence",
+      "misc": "Misa del Domingo precedente"
+    }
+  ]
+},
+{
+  "date": "2026-10-24",
+  "weekday": { "es": "Sábado", "en": "Saturday" },
+  "celebrations": [
+    {
+      "title": { "es": "San Rafael, Arcángel", "en": "Saint Raphael, Archangel" },
+      "rank": { "es": "Doble Mayor", "en": "Greater Double" },
+      "color": "Blanco",
+      "fasting": null,
+      "misc": null
+    }
+  ]
+},
+{
+  "date": "2026-10-25",
+  "weekday": { "es": "Domingo", "en": "Sunday" },
+  "celebrations": [
+    {
+      "title": { "es": "Fiesta de Nuestro Señor Jesucristo Rey", "en": "Feast of Our Lord Jesus Christ the King" },
+      "rank": { "es": "Doble de Primera Clase", "en": "Double of the First Class" },
+      "color": "Blanco",
+      "fasting": null,
+      "misc": null
+    },
+    {
+      "title": { "es": "Vigesimosegundo Domingo después de Pentecostés", "en": "Twenty-second Sunday after Pentecost" },
+      "rank": { "es": "Doble de Primera Clase", "en": "Double of the First Class" },
+      "color": "Blanco",
+      "fasting": null,
+      "misc": null
+    }
+  ]
+},
+{
+  "date": "2026-10-26",
+  "weekday": { "es": "Lunes", "en": "Monday" },
+  "celebrations": [
+    {
+      "title": { "es": "Misa del Vigesimosegundo Domingo de Pentecostés", "en": "Mass of the Twenty-second Sunday after Pentecost" },
+      "rank": { "es": "Simple", "en": "Simple" },
+      "color": "Verde",
+      "fasting": null,
+      "misc": null
+    },
+    {
+      "title": { "es": "San Evaristo, Papa y Mártir", "en": "Saint Evaristus, Pope and Martyr" },
+      "rank": { "es": "Simple", "en": "Simple" },
+      "color": "Verde",
+      "fasting": null,
+      "misc": null
+    }
+  ]
+},
+{
+  "date": "2026-10-27",
+  "weekday": { "es": "Martes", "en": "Tuesday" },
+  "celebrations": [
+    {
+      "title": { "es": "Vigilia de San Simón y San Judas, Apóstoles", "en": "Vigil of Saints Simon and Jude, Apostles" },
+      "rank": { "es": "Simple", "en": "Simple" },
+      "color": "Violeta",
+      "fasting": null,
+      "misc": null
+    }
+  ]
+},
+{
+  "date": "2026-10-28",
+  "weekday": { "es": "Miércoles", "en": "Wednesday" },
+  "celebrations": [
+    {
+      "title": { "es": "Santos Simón y Judas, Apóstoles", "en": "Saints Simon and Jude, Apostles" },
+      "rank": { "es": "Doble de Segunda Clase", "en": "Double of the Second Class" },
+      "color": "Rojo",
+      "fasting": null,
+      "misc": null
+    }
+  ]
+},
+{
+  "date": "2026-10-29",
+  "weekday": { "es": "Jueves", "en": "Thursday" },
+  "celebrations": [
+    {
+      "title": { "es": "De Feria", "en": "Feria" },
+      "rank": { "es": "Simple", "en": "Simple" },
+      "color": "Verde",
+      "fasting": null,
+      "misc": "Misa del Domingo precedente"
+    }
+  ]
+},
+{
+  "date": "2026-10-30",
+  "weekday": { "es": "Viernes", "en": "Friday" },
+  "celebrations": [
+    {
+      "title": { "es": "De Feria", "en": "Feria" },
+      "rank": { "es": "Simple", "en": "Simple" },
+      "color": "Verde",
+      "fasting": null,
+      "misc": "Misa del Domingo precedente"
+    }
+  ]
+},
+{
+  "date": "2026-10-31",
+  "weekday": { "es": "Sábado", "en": "Saturday" },
+  "celebrations": [
+    {
+      "title": { "es": "Vigilia de Todos los Santos", "en": "Vigil of All Saints" },
+      "rank": { "es": "Simple", "en": "Simple" },
+      "color": "Violeta",
+      "fasting": "fasting_and_abstinence",
+      "misc": null
+    }
+  ]
+},
+{
+  "date": "2026-11-01",
+  "weekday": {
+    "es": "Domingo",
+    "en": "Sunday"
+  },
+  "celebrations": [
+    {
+      "title": {
+        "es": "Todos los Santos",
+        "en": "All Saints"
+      },
+      "rank": {
+        "es": "Doble de Primera Clase",
+        "en": "Double of the First Class"
+      },
+      "color": "Blanco",
+      "fasting": null,
+      "misc": null
+    },
+    {
+      "title": {
+        "es": "Vigesimotercer Domingo después de Pentecostés",
+        "en": "Twenty-third Sunday after Pentecost"
+      },
+      "rank": {
+        "es": "Doble de Primera Clase",
+        "en": "Double of the First Class"
+      },
+      "color": "Blanco",
+      "fasting": null,
+      "misc": null
+    }
+  ]
+},
+{
+  "date": "2026-11-02",
+  "weekday": {
+    "es": "Lunes",
+    "en": "Monday"
+  },
+  "celebrations": [
+    {
+      "title": {
+        "es": "Conmemoración de Todos los Fieles Difuntos",
+        "en": "Commemoration of All the Faithful Departed"
+      },
+      "rank": {
+        "es": "Doble",
+        "en": "Double"
+      },
+      "color": "Negro",
+      "fasting": null,
+      "misc": null
+    }
+  ]
+},
+{
+  "date": "2026-11-03",
+  "weekday": {
+    "es": "Martes",
+    "en": "Tuesday"
+  },
+  "celebrations": [
+    {
+      "title": {
+        "es": "Tercer Día de la infraoctava de Todos los Santos",
+        "en": "Third Day within the Octave of All Saints"
+      },
+      "rank": {
+        "es": "Semi doble",
+        "en": "Semi-double"
+      },
+      "color": "Blanco",
+      "fasting": null,
+      "misc": null
+    }
+  ]
+},
+{
+  "date": "2026-11-04",
+  "weekday": {
+    "es": "Miércoles",
+    "en": "Wednesday"
+  },
+  "celebrations": [
+    {
+      "title": {
+        "es": "San Carlos Borromeo, Obispo y Confesor",
+        "en": "Saint Charles Borromeo, Bishop and Confessor"
+      },
+      "rank": {
+        "es": "Doble",
+        "en": "Double"
+      },
+      "color": "Blanco",
+      "fasting": null,
+      "misc": null
+    },
+    {
+      "title": {
+        "es": "Cuarto Día de la infraoctava de Todos los Santos",
+        "en": "Fourth Day within the Octave of All Saints"
+      },
+      "rank": {
+        "es": "Doble",
+        "en": "Double"
+      },
+      "color": "Blanco",
+      "fasting": null,
+      "misc": null
+    },
+    {
+      "title": {
+        "es": "Santos Vidal y Agrícola, Mártires",
+        "en": "Saints Vitalis and Agricola, Martyrs"
+      },
+      "rank": {
+        "es": "Doble",
+        "en": "Double"
+      },
+      "color": "Blanco",
+      "fasting": null,
+      "misc": null
+    }
+  ]
+},
+{
+  "date": "2026-11-05",
+  "weekday": {
+    "es": "Jueves",
+    "en": "Thursday"
+  },
+  "celebrations": [
+    {
+      "title": {
+        "es": "Quinto Día de la infraoctava de Todos los Santos",
+        "en": "Fifth Day within the Octave of All Saints"
+      },
+      "rank": {
+        "es": "Semi doble",
+        "en": "Semi-double"
+      },
+      "color": "Blanco",
+      "fasting": null,
+      "misc": null
+    }
+  ]
+},
+{
+  "date": "2026-11-06",
+  "weekday": {
+    "es": "Viernes",
+    "en": "Friday"
+  },
+  "celebrations": [
+    {
+      "title": {
+        "es": "Sexto Día de la infraoctava de Todos los Santos",
+        "en": "Sixth Day within the Octave of All Saints"
+      },
+      "rank": {
+        "es": "Semi doble",
+        "en": "Semi-double"
+      },
+      "color": "Blanco",
+      "fasting": "abstinence",
+      "misc": "Primer Viernes"
+    }
+  ]
+},
+{
+  "date": "2026-11-07",
+  "weekday": {
+    "es": "Sábado",
+    "en": "Saturday"
+  },
+  "celebrations": [
+    {
+      "title": {
+        "es": "Séptimo Día de la infraoctava de Todos los Santos",
+        "en": "Seventh Day within the Octave of All Saints"
+      },
+      "rank": {
+        "es": "Semi doble",
+        "en": "Semi-double"
+      },
+      "color": "Blanco",
+      "fasting": null,
+      "misc": "1er Sábado"
+    }
+  ]
+},
+{
+  "date": "2026-11-08",
+  "weekday": {
+    "es": "Domingo",
+    "en": "Sunday"
+  },
+  "celebrations": [
+    {
+      "title": {
+        "es": "Quinto Domingo después de Epifanía (sobrante)",
+        "en": "Fifth Sunday after Epiphany (transferred)"
+      },
+      "rank": {
+        "es": "Semi doble",
+        "en": "Semi-double"
+      },
+      "color": "Verde",
+      "fasting": null,
+      "misc": null
+    },
+    {
+      "title": {
+        "es": "Octava de Todos los Santos",
+        "en": "Octave of All Saints"
+      },
+      "rank": {
+        "es": "Semi doble",
+        "en": "Semi-double"
+      },
+      "color": "Verde",
+      "fasting": null,
+      "misc": null
+    },
+    {
+      "title": {
+        "es": "Cuatro Santos Mártires Coronados",
+        "en": "Four Holy Crowned Martyrs"
+      },
+      "rank": {
+        "es": "Semi doble",
+        "en": "Semi-double"
+      },
+      "color": "Verde",
+      "fasting": null,
+      "misc": null
+    }
+  ]
+},
+{
+  "date": "2026-11-09",
+  "weekday": {
+    "es": "Lunes",
+    "en": "Monday"
+  },
+  "celebrations": [
+    {
+      "title": {
+        "es": "Dedicación de la Archibasílica de Nuestro Salvador",
+        "en": "Dedication of the Archbasilica of Our Savior"
+      },
+      "rank": {
+        "es": "Doble de Segunda Clase",
+        "en": "Double of the Second Class"
+      },
+      "color": "Blanco",
+      "fasting": null,
+      "misc": null
+    },
+    {
+      "title": {
+        "es": "San Teodoro, Mártir",
+        "en": "Saint Theodore, Martyr"
+      },
+      "rank": {
+        "es": "Doble de Segunda Clase",
+        "en": "Double of the Second Class"
+      },
+      "color": "Blanco",
+      "fasting": null,
+      "misc": null
+    }
+  ]
+},
+{
+  "date": "2026-11-10",
+  "weekday": {
+    "es": "Martes",
+    "en": "Tuesday"
+  },
+  "celebrations": [
+    {
+      "title": {
+        "es": "San Andrés Avelino, Confesor",
+        "en": "Saint Andrew Avellino, Confessor"
+      },
+      "rank": {
+        "es": "Doble",
+        "en": "Double"
+      },
+      "color": "Blanco",
+      "fasting": null,
+      "misc": null
+    },
+    {
+      "title": {
+        "es": "Santos Trifón y Compañeros, Mártires",
+        "en": "Saint Tryphon and Companions, Martyrs"
+      },
+      "rank": {
+        "es": "Doble",
+        "en": "Double"
+      },
+      "color": "Blanco",
+      "fasting": null,
+      "misc": null
+    }
+  ]
+},
+{
+  "date": "2026-11-11",
+  "weekday": {
+    "es": "Miércoles",
+    "en": "Wednesday"
+  },
+  "celebrations": [
+    {
+      "title": {
+        "es": "San Martín de Tours, Obispo y Confesor",
+        "en": "Saint Martin of Tours, Bishop and Confessor"
+      },
+      "rank": {
+        "es": "Doble",
+        "en": "Double"
+      },
+      "color": "Blanco",
+      "fasting": null,
+      "misc": null
+    },
+    {
+      "title": {
+        "es": "San Menas, Mártir",
+        "en": "Saint Menas, Martyr"
+      },
+      "rank": {
+        "es": "Doble",
+        "en": "Double"
+      },
+      "color": "Blanco",
+      "fasting": null,
+      "misc": null
+    }
+  ]
+},
+{
+  "date": "2026-11-12",
+  "weekday": {
+    "es": "Jueves",
+    "en": "Thursday"
+  },
+  "celebrations": [
+    {
+      "title": {
+        "es": "San Martín I, Papa y Mártir",
+        "en": "Saint Martin I, Pope and Martyr"
+      },
+      "rank": {
+        "es": "Semi doble",
+        "en": "Semi-double"
+      },
+      "color": "Rojo",
+      "fasting": null,
+      "misc": null
+    }
+  ]
+},
+{
+  "date": "2026-11-13",
+  "weekday": {
+    "es": "Viernes",
+    "en": "Friday"
+  },
+  "celebrations": [
+    {
+      "title": {
+        "es": "San Diego, Confesor",
+        "en": "Saint Didacus, Confessor"
+      },
+      "rank": {
+        "es": "Semi doble",
+        "en": "Semi-double"
+      },
+      "color": "Blanco",
+      "fasting": "abstinence",
+      "misc": null
+    }
+  ]
+},
+{
+  "date": "2026-11-14",
+  "weekday": {
+    "es": "Sábado",
+    "en": "Saturday"
+  },
+  "celebrations": [
+    {
+      "title": {
+        "es": "San Josafat, Obispo y Mártir",
+        "en": "Saint Josaphat, Bishop and Martyr"
+      },
+      "rank": {
+        "es": "Doble",
+        "en": "Double"
+      },
+      "color": "Rojo",
+      "fasting": null,
+      "misc": null
+    }
+  ]
+},
+{
+  "date": "2026-11-15",
+  "weekday": {
+    "es": "Domingo",
+    "en": "Sunday"
+  },
+  "celebrations": [
+    {
+      "title": {
+        "es": "Sexto Domingo después de Epifanía (sobrante)",
+        "en": "Sixth Sunday after Epiphany (transferred)"
+      },
+      "rank": {
+        "es": "Semi doble",
+        "en": "Semi-double"
+      },
+      "color": "Verde",
+      "fasting": null,
+      "misc": null
+    },
+    {
+      "title": {
+        "es": "San Alberto Magno, Obispo, Confesor y Doctor",
+        "en": "Saint Albert the Great, Bishop, Confessor and Doctor"
+      },
+      "rank": {
+        "es": "Semi doble",
+        "en": "Semi-double"
+      },
+      "color": "Verde",
+      "fasting": null,
+      "misc": null
+    }
+  ]
+},
+{
+  "date": "2026-11-16",
+  "weekday": {
+    "es": "Lunes",
+    "en": "Monday"
+  },
+  "celebrations": [
+    {
+      "title": {
+        "es": "Santa Gertrudis, Virgen y Abadesa",
+        "en": "Saint Gertrude, Virgin and Abbess"
+      },
+      "rank": {
+        "es": "Doble",
+        "en": "Double"
+      },
+      "color": "Blanco",
+      "fasting": null,
+      "misc": null
+    }
+  ]
+},
+{
+  "date": "2026-11-17",
+  "weekday": {
+    "es": "Martes",
+    "en": "Tuesday"
+  },
+  "celebrations": [
+    {
+      "title": {
+        "es": "San Gregorio Taumaturgo, Obispo y Confesor",
+        "en": "Saint Gregory Thaumaturgus, Bishop and Confessor"
+      },
+      "rank": {
+        "es": "Semi doble",
+        "en": "Semi-double"
+      },
+      "color": "Blanco",
+      "fasting": null,
+      "misc": null
+    }
+  ]
+},
+{
+  "date": "2026-11-18",
+  "weekday": {
+    "es": "Miércoles",
+    "en": "Wednesday"
+  },
+  "celebrations": [
+    {
+      "title": {
+        "es": "Dedicación de las Basílicas de San Pedro y San Pablo",
+        "en": "Dedication of the Basilicas of Saints Peter and Paul"
+      },
+      "rank": {
+        "es": "Doble Mayor",
+        "en": "Greater Double"
+      },
+      "color": "Blanco",
+      "fasting": null,
+      "misc": null
+    }
+  ]
+},
+{
+  "date": "2026-11-19",
+  "weekday": {
+    "es": "Jueves",
+    "en": "Thursday"
+  },
+  "celebrations": [
+    {
+      "title": {
+        "es": "Santa Isabel de Hungría, Viuda",
+        "en": "Saint Elizabeth of Hungary, Widow"
+      },
+      "rank": {
+        "es": "Doble",
+        "en": "Double"
+      },
+      "color": "Blanco",
+      "fasting": null,
+      "misc": null
+    },
+    {
+      "title": {
+        "es": "San Ponciano, Papa y Mártir",
+        "en": "Saint Pontian, Pope and Martyr"
+      },
+      "rank": {
+        "es": "Doble",
+        "en": "Double"
+      },
+      "color": "Blanco",
+      "fasting": null,
+      "misc": null
+    }
+  ]
+},
+{
+  "date": "2026-11-20",
+  "weekday": {
+    "es": "Viernes",
+    "en": "Friday"
+  },
+  "celebrations": [
+    {
+      "title": {
+        "es": "San Félix de Valois, Confesor",
+        "en": "Saint Felix of Valois, Confessor"
+      },
+      "rank": {
+        "es": "Doble",
+        "en": "Double"
+      },
+      "color": "Blanco",
+      "fasting": "abstinence",
+      "misc": null
+    }
+  ]
+},
+{
+  "date": "2026-11-21",
+  "weekday": {
+    "es": "Sábado",
+    "en": "Saturday"
+  },
+  "celebrations": [
+    {
+      "title": {
+        "es": "Presentación de la Bienaventurada Virgen María",
+        "en": "Presentation of the Blessed Virgin Mary"
+      },
+      "rank": {
+        "es": "Doble Mayor",
+        "en": "Greater Double"
+      },
+      "color": "Blanco",
+      "fasting": null,
+      "misc": null
+    }
+  ]
+},
+{
+  "date": "2026-11-22",
+  "weekday": {
+    "es": "Domingo",
+    "en": "Sunday"
+  },
+  "celebrations": [
+    {
+      "title": {
+        "es": "Vigesimocuarto Domingo después de Pentecostés",
+        "en": "Twenty-fourth Sunday after Pentecost"
+      },
+      "rank": {
+        "es": "Semi doble",
+        "en": "Semi-double"
+      },
+      "color": "Verde",
+      "fasting": null,
+      "misc": null
+    },
+    {
+      "title": {
+        "es": "Santa Cecilia, Virgen y Mártir",
+        "en": "Saint Cecilia, Virgin and Martyr"
+      },
+      "rank": {
+        "es": "Semi doble",
+        "en": "Semi-double"
+      },
+      "color": "Verde",
+      "fasting": null,
+      "misc": null
+    }
+  ]
+},
+{
+  "date": "2026-11-23",
+  "weekday": {
+    "es": "Lunes",
+    "en": "Monday"
+  },
+  "celebrations": [
+    {
+      "title": {
+        "es": "San Clemente I, Papa y Mártir",
+        "en": "Saint Clement I, Pope and Martyr"
+      },
+      "rank": {
+        "es": "Doble",
+        "en": "Double"
+      },
+      "color": "Rojo",
+      "fasting": null,
+      "misc": null
+    },
+    {
+      "title": {
+        "es": "Santa Felicitas, Mártir",
+        "en": "Saint Felicity, Martyr"
+      },
+      "rank": {
+        "es": "Doble",
+        "en": "Double"
+      },
+      "color": "Rojo",
+      "fasting": null,
+      "misc": null
+    }
+  ]
+},
+{
+  "date": "2026-11-24",
+  "weekday": {
+    "es": "Martes",
+    "en": "Tuesday"
+  },
+  "celebrations": [
+    {
+      "title": {
+        "es": "San Juan de la Cruz, Confesor y Doctor",
+        "en": "Saint John of the Cross, Confessor and Doctor"
+      },
+      "rank": {
+        "es": "Doble",
+        "en": "Double"
+      },
+      "color": "Blanco",
+      "fasting": null,
+      "misc": null
+    },
+    {
+      "title": {
+        "es": "San Crisógono, Mártir",
+        "en": "Saint Chrysogonus, Martyr"
+      },
+      "rank": {
+        "es": "Doble",
+        "en": "Double"
+      },
+      "color": "Blanco",
+      "fasting": null,
+      "misc": null
+    }
+  ]
+},
+{
+  "date": "2026-11-25",
+  "weekday": {
+    "es": "Miércoles",
+    "en": "Wednesday"
+  },
+  "celebrations": [
+    {
+      "title": {
+        "es": "Santa Catalina de Alejandría, Virgen y Mártir",
+        "en": "Saint Catherine of Alexandria, Virgin and Martyr"
+      },
+      "rank": {
+        "es": "Doble",
+        "en": "Double"
+      },
+      "color": "Rojo",
+      "fasting": null,
+      "misc": null
+    }
+  ]
+},
+{
+  "date": "2026-11-26",
+  "weekday": {
+    "es": "Jueves",
+    "en": "Thursday"
+  },
+  "celebrations": [
+    {
+      "title": {
+        "es": "San Silvestre, Abad",
+        "en": "Saint Sylvester, Abbot"
+      },
+      "rank": {
+        "es": "Doble",
+        "en": "Double"
+      },
+      "color": "Blanco",
+      "fasting": null,
+      "misc": null
+    },
+    {
+      "title": {
+        "es": "San Pedro de Alejandría, Obispo y Mártir",
+        "en": "Saint Peter of Alexandria, Bishop and Martyr"
+      },
+      "rank": {
+        "es": "Doble",
+        "en": "Double"
+      },
+      "color": "Blanco",
+      "fasting": null,
+      "misc": null
+    }
+  ]
+},
+{
+  "date": "2026-11-27",
+  "weekday": {
+    "es": "Viernes",
+    "en": "Friday"
+  },
+  "celebrations": [
+    {
+      "title": {
+        "es": "De la Feria (Misa del Domingo precedente)",
+        "en": "Feria (Mass of the preceding Sunday)"
+      },
+      "rank": {
+        "es": "Simple",
+        "en": "Simple"
+      },
+      "color": "Verde",
+      "fasting": "abstinence",
+      "misc": null
+    }
+  ]
+},
+{
+  "date": "2026-11-28",
+  "weekday": {
+    "es": "Sábado",
+    "en": "Saturday"
+  },
+  "celebrations": [
+    {
+      "title": {
+        "es": "Vigilia de San Andrés",
+        "en": "Vigil of Saint Andrew"
+      },
+      "rank": {
+        "es": "Simple",
+        "en": "Simple"
+      },
+      "color": "Violeta",
+      "fasting": null,
+      "misc": null
+    }
+  ]
+},
+{
+  "date": "2026-11-29",
+  "weekday": {
+    "es": "Domingo",
+    "en": "Sunday"
+  },
+  "celebrations": [
+    {
+      "title": {
+        "es": "Primer Domingo de Adviento",
+        "en": "First Sunday of Advent"
+      },
+      "rank": {
+        "es": "Semi doble",
+        "en": "Semi-double"
+      },
+      "color": "Violeta",
+      "fasting": null,
+      "misc": null
+    },
+    {
+      "title": {
+        "es": "San Saturnino, Mártir",
+        "en": "Saint Saturninus, Martyr"
+      },
+      "rank": {
+        "es": "Semi doble",
+        "en": "Semi-double"
+      },
+      "color": "Violeta",
+      "fasting": null,
+      "misc": null
+    }
+  ]
+},
+{
+  "date": "2026-11-30",
+  "weekday": {
+    "es": "Lunes",
+    "en": "Monday"
+  },
+  "celebrations": [
+    {
+      "title": {
+        "es": "San Andrés, Apóstol",
+        "en": "Saint Andrew, Apostle"
+      },
+      "rank": {
+        "es": "Doble de Segunda Clase",
+        "en": "Double of the Second Class"
+      },
+      "color": "Rojo",
+      "fasting": null,
+      "misc": null
+    }
+  ]
+},
+    {
+  "date": "2026-12-01",
+  "weekday": {
+    "es": "Martes",
+    "en": "Tuesday"
+  },
+  "celebrations": [
+    {
+      "title": {
+        "es": "De Feria",
+        "en": "Feria"
+      },
+      "rank": {
+        "es": "Simple",
+        "en": "Simple"
+      },
+      "color": "Violeta",
+      "fasting": null,
+      "misc": null
+    }
+  ]
+},
+{
+  "date": "2026-12-02",
+  "weekday": {
+    "es": "Miércoles",
+    "en": "Wednesday"
+  },
+  "celebrations": [
+    {
+      "title": {
+        "es": "Santa Bibiana, Virgen y Mártir",
+        "en": "Saint Bibiana, Virgin and Martyr"
+      },
+      "rank": {
+        "es": "Semi doble",
+        "en": "Semi-double"
+      },
+      "color": "Rojo",
+      "fasting": null,
+      "misc": null
+    }
+  ]
+},
+{
+  "date": "2026-12-03",
+  "weekday": {
+    "es": "Jueves",
+    "en": "Thursday"
+  },
+  "celebrations": [
+    {
+      "title": {
+        "es": "San Francisco Javier, Confesor",
+        "en": "Saint Francis Xavier, Confessor"
+      },
+      "rank": {
+        "es": "Doble mayor",
+        "en": "Greater Double"
+      },
+      "color": "Blanco",
+      "fasting": null,
+      "misc": null
+    }
+  ]
+},
+{
+  "date": "2026-12-04",
+  "weekday": {
+    "es": "Viernes",
+    "en": "Friday"
+  },
+  "celebrations": [
+    {
+      "title": {
+        "es": "San Pedro Crisólogo, Obispo Confesor y Doctor",
+        "en": "Saint Peter Chrysologus, Bishop, Confessor and Doctor"
+      },
+      "rank": {
+        "es": "Doble",
+        "en": "Double"
+      },
+      "color": "Blanco",
+      "fasting": "abstinence",
+      "misc": "1er Viernes"
+    },
+    {
+      "title": {
+        "es": "Santa Bárbara, Virgen y Mártir",
+        "en": "Saint Barbara, Virgin and Martyr"
+      },
+      "rank": {
+        "es": "Doble",
+        "en": "Double"
+      },
+      "color": "Blanco",
+      "fasting": "abstinence",
+      "misc": "1er Viernes"
+    }
+  ]
+},
+{
+  "date": "2026-12-05",
+  "weekday": {
+    "es": "Sábado",
+    "en": "Saturday"
+  },
+  "celebrations": [
+    {
+      "title": {
+        "es": "De Feria",
+        "en": "Feria"
+      },
+      "rank": {
+        "es": "Simple",
+        "en": "Simple"
+      },
+      "color": "Violeta",
+      "fasting": null,
+      "misc": "1er Sábado"
+    },
+    {
+      "title": {
+        "es": "Conmemoración de San Sabas, Abad",
+        "en": "Commemoration of Saint Sabbas, Abbot"
+      },
+      "rank": {
+        "es": "Simple",
+        "en": "Simple"
+      },
+      "color": "Violeta",
+      "fasting": null,
+      "misc": "1er Sábado"
+    }
+  ]
+},
+{
+  "date": "2026-12-06",
+  "weekday": {
+    "es": "Domingo",
+    "en": "Sunday"
+  },
+  "celebrations": [
+    {
+      "title": {
+        "es": "Segundo Domingo de Adviento",
+        "en": "Second Sunday of Advent"
+      },
+      "rank": {
+        "es": "Semi doble",
+        "en": "Semi-double"
+      },
+      "color": "Violeta",
+      "fasting": null,
+      "misc": null
+    },
+    {
+      "title": {
+        "es": "San Nicolás, Obispo y Confesor",
+        "en": "Saint Nicholas, Bishop and Confessor"
+      },
+      "rank": {
+        "es": "Semi doble",
+        "en": "Semi-double"
+      },
+      "color": "Violeta",
+      "fasting": null,
+      "misc": null
+    }
+  ]
+},
+{
+  "date": "2026-12-07",
+  "weekday": {
+    "es": "Lunes",
+    "en": "Monday"
+  },
+  "celebrations": [
+    {
+      "title": {
+        "es": "San Ambrosio, Obispo y Confesor",
+        "en": "Saint Ambrose, Bishop and Confessor"
+      },
+      "rank": {
+        "es": "Doble",
+        "en": "Double"
+      },
+      "color": "Blanco",
+      "fasting": "fasting_and_abstinence",
+      "misc": null
+    },
+    {
+      "title": {
+        "es": "Vigilia de la Inmaculada Concepción de la BVM",
+        "en": "Vigil of the Immaculate Conception of the Blessed Virgin Mary"
+      },
+      "rank": {
+        "es": "Doble",
+        "en": "Double"
+      },
+      "color": "Blanco",
+      "fasting": "fasting_and_abstinence",
+      "misc": null
+    }
+  ]
+},
+{
+  "date": "2026-12-08",
+  "weekday": {
+    "es": "Martes",
+    "en": "Tuesday"
+  },
+  "celebrations": [
+    {
+      "title": {
+        "es": "Inmaculada Concepción de la BVM",
+        "en": "Immaculate Conception of the Blessed Virgin Mary"
+      },
+      "rank": {
+        "es": "Doble de Primera Clase",
+        "en": "Double of the First Class"
+      },
+      "color": "Blanco",
+      "fasting": null,
+      "misc": "Día de Precepto"
+    }
+  ]
+},
+{
+  "date": "2026-12-09",
+  "weekday": {
+    "es": "Miércoles",
+    "en": "Wednesday"
+  },
+  "celebrations": [
+    {
+      "title": {
+        "es": "Segundo Día dentro de la octava de la Inmaculada Concepción",
+        "en": "Second Day within the Octave of the Immaculate Conception"
+      },
+      "rank": {
+        "es": "Semi doble",
+        "en": "Semi-double"
+      },
+      "color": "Blanco",
+      "fasting": null,
+      "misc": null
+    }
+  ]
+},
+{
+  "date": "2026-12-10",
+  "weekday": {
+    "es": "Jueves",
+    "en": "Thursday"
+  },
+  "celebrations": [
+    {
+      "title": {
+        "es": "Tercer Día dentro de octava de la Inmaculada Concepción",
+        "en": "Third Day within the Octave of the Immaculate Conception"
+      },
+      "rank": {
+        "es": "Semi doble",
+        "en": "Semi-double"
+      },
+      "color": "Blanco",
+      "fasting": null,
+      "misc": null
+    },
+    {
+      "title": {
+        "es": "San Melquiádes, Papa y Mártir",
+        "en": "Saint Melchiades, Pope and Martyr"
+      },
+      "rank": {
+        "es": "Semi doble",
+        "en": "Semi-double"
+      },
+      "color": "Blanco",
+      "fasting": null,
+      "misc": null
+    }
+  ]
+},
+{
+  "date": "2026-12-11",
+  "weekday": {
+    "es": "Viernes",
+    "en": "Friday"
+  },
+  "celebrations": [
+    {
+      "title": {
+        "es": "San Dámaso I, Papa y Confesor",
+        "en": "Saint Damasus I, Pope and Confessor"
+      },
+      "rank": {
+        "es": "Semi doble",
+        "en": "Semi-double"
+      },
+      "color": "Blanco",
+      "fasting": null,
+      "misc": null
+    },
+    {
+      "title": {
+        "es": "Cuarto Día dentro de la octava de la Inmaculada Concepción",
+        "en": "Fourth Day within the Octave of the Immaculate Conception"
+      },
+      "rank": {
+        "es": "Semi doble",
+        "en": "Semi-double"
+      },
+      "color": "Blanco",
+      "fasting": null,
+      "misc": null
+    }
+  ]
+},
+{
+  "date": "2026-12-12",
+  "weekday": {
+    "es": "Sábado",
+    "en": "Saturday"
+  },
+  "celebrations": [
+    {
+      "title": {
+        "es": "Nuestra Señora de Guadalupe",
+        "en": "Our Lady of Guadalupe"
+      },
+      "rank": {
+        "es": "Doble de Primera Clase",
+        "en": "Double of the First Class"
+      },
+      "color": "Blanco",
+      "fasting": null,
+      "misc": null
+    }
+  ]
+},
+{
+  "date": "2026-12-13",
+  "weekday": {
+    "es": "Domingo",
+    "en": "Sunday"
+  },
+  "celebrations": [
+    {
+      "title": {
+        "es": "Tercer Domingo de Adviento (Domingo Gaudete)",
+        "en": "Third Sunday of Advent (Gaudete Sunday)"
+      },
+      "rank": {
+        "es": "Semi doble",
+        "en": "Semi-double"
+      },
+      "color": "Rosado",
+      "fasting": null,
+      "misc": null
+    },
+    {
+      "title": {
+        "es": "Santa Lucía, Virgen y Mártir",
+        "en": "Saint Lucy, Virgin and Martyr"
+      },
+      "rank": {
+        "es": "Semi doble",
+        "en": "Semi-double"
+      },
+      "color": "Rosado",
+      "fasting": null,
+      "misc": null
+    },
+    {
+      "title": {
+        "es": "Sexto Día dentro de la octava de la Inmaculada Concepción",
+        "en": "Sixth Day within the Octave of the Immaculate Conception"
+      },
+      "rank": {
+        "es": "Semi doble",
+        "en": "Semi-double"
+      },
+      "color": "Rosado",
+      "fasting": null,
+      "misc": null
+    }
+  ]
+},
+{
+  "date": "2026-12-14",
+  "weekday": {
+    "es": "Lunes",
+    "en": "Monday"
+  },
+  "celebrations": [
+    {
+      "title": {
+        "es": "Séptimo Día dentro de la octava de la Inmaculada Concepción",
+        "en": "Seventh Day within the Octave of the Immaculate Conception"
+      },
+      "rank": {
+        "es": "Semi doble",
+        "en": "Semi-double"
+      },
+      "color": "Blanco",
+      "fasting": null,
+      "misc": null
+    }
+  ]
+},
+{
+  "date": "2026-12-15",
+  "weekday": {
+    "es": "Martes",
+    "en": "Tuesday"
+  },
+  "celebrations": [
+    {
+      "title": {
+        "es": "Octava de la Inmaculada Concepción",
+        "en": "Octave of the Immaculate Conception"
+      },
+      "rank": {
+        "es": "Doble mayor",
+        "en": "Greater Double"
+      },
+      "color": "Blanco",
+      "fasting": null,
+      "misc": null
+    }
+  ]
+},
+{
+  "date": "2026-12-16",
+  "weekday": {
+    "es": "Miércoles",
+    "en": "Wednesday"
+  },
+  "celebrations": [
+    {
+      "title": {
+        "es": "San Eusebio, Obispo y Mártir",
+        "en": "Saint Eusebius, Bishop and Martyr"
+      },
+      "rank": {
+        "es": "Semi doble",
+        "en": "Semi-double"
+      },
+      "color": "Rojo",
+      "fasting": "fasting_and_abstinence",
+      "misc": "Miércoles de Témporas"
+    }
+  ]
+},
+{
+  "date": "2026-12-17",
+  "weekday": {
+    "es": "Jueves",
+    "en": "Thursday"
+  },
+  "celebrations": [
+    {
+      "title": {
+        "es": "De Feria",
+        "en": "Feria"
+      },
+      "rank": {
+        "es": "Simple",
+        "en": "Simple"
+      },
+      "color": "Violeta",
+      "fasting": null,
+      "misc": null
+    }
+  ]
+},
+{
+  "date": "2026-12-18",
+  "weekday": {
+    "es": "Viernes",
+    "en": "Friday"
+  },
+  "celebrations": [
+    {
+      "title": {
+        "es": "Viernes de Témporas",
+        "en": "Ember Friday"
+      },
+      "rank": {
+        "es": "Simple",
+        "en": "Simple"
+      },
+      "color": "Violeta",
+      "fasting": "fasting_and_abstinence",
+      "misc": "Viernes de Témporas"
+    }
+  ]
+},
+{
+  "date": "2026-12-19",
+  "weekday": {
+    "es": "Sábado",
+    "en": "Saturday"
+  },
+  "celebrations": [
+    {
+      "title": {
+        "es": "Sábado de Témporas",
+        "en": "Ember Saturday"
+      },
+      "rank": {
+        "es": "Simple",
+        "en": "Simple"
+      },
+      "color": "Violeta",
+      "fasting": "fasting_and_abstinence",
+      "misc": "Sábado de Témporas"
+    },
+    {
+      "title": {
+        "es": "Vigilia de Santo Tomás",
+        "en": "Vigil of Saint Thomas"
+      },
+      "rank": {
+        "es": "Simple",
+        "en": "Simple"
+      },
+      "color": "Violeta",
+      "fasting": "fasting_and_abstinence",
+      "misc": "Sábado de Témporas"
+    }
+  ]
+},
+{
+  "date": "2026-12-20",
+  "weekday": {
+    "es": "Domingo",
+    "en": "Sunday"
+  },
+  "celebrations": [
+    {
+      "title": {
+        "es": "Cuarto Domingo de Adviento",
+        "en": "Fourth Sunday of Advent"
+      },
+      "rank": {
+        "es": "Semi doble",
+        "en": "Semi-double"
+      },
+      "color": "Violeta",
+      "fasting": null,
+      "misc": null
+    }
+  ]
+},
+{
+  "date": "2026-12-21",
+  "weekday": {
+    "es": "Lunes",
+    "en": "Monday"
+  },
+  "celebrations": [
+    {
+      "title": {
+        "es": "Santo Tomás, Apóstol",
+        "en": "Saint Thomas, Apostle"
+      },
+      "rank": {
+        "es": "Doble de Segunda Clase",
+        "en": "Double of the Second Class"
+      },
+      "color": "Rojo",
+      "fasting": null,
+      "misc": null
+    }
+  ]
+},
+{
+  "date": "2026-12-22",
+  "weekday": {
+    "es": "Martes",
+    "en": "Tuesday"
+  },
+  "celebrations": [
+    {
+      "title": {
+        "es": "De Feria",
+        "en": "Feria"
+      },
+      "rank": {
+        "es": "Simple",
+        "en": "Simple"
+      },
+      "color": "Violeta",
+      "fasting": null,
+      "misc": null
+    }
+  ]
+},
+{
+  "date": "2026-12-23",
+  "weekday": {
+    "es": "Miércoles",
+    "en": "Wednesday"
+  },
+  "celebrations": [
+    {
+      "title": {
+        "es": "De Feria",
+        "en": "Feria"
+      },
+      "rank": {
+        "es": "Simple",
+        "en": "Simple"
+      },
+      "color": "Violeta",
+      "fasting": null,
+      "misc": null
+    }
+  ]
+},
+{
+  "date": "2026-12-24",
+  "weekday": {
+    "es": "Jueves",
+    "en": "Thursday"
+  },
+  "celebrations": [
+    {
+      "title": {
+        "es": "Vigilia de la Natividad",
+        "en": "Vigil of the Nativity"
+      },
+      "rank": {
+        "es": "Semi doble",
+        "en": "Semi-double"
+      },
+      "color": "Violeta",
+      "fasting": "fasting_and_abstinence",
+      "misc": null
+    }
+  ]
+},
+{
+  "date": "2026-12-25",
+  "weekday": {
+    "es": "Viernes",
+    "en": "Friday"
+  },
+  "celebrations": [
+    {
+      "title": {
+        "es": "Natividad de Nuestro Señor",
+        "en": "Nativity of Our Lord"
+      },
+      "rank": {
+        "es": "Doble de Primera Clase",
+        "en": "Double of the First Class"
+      },
+      "color": "Blanco",
+      "fasting": null,
+      "misc": "Día de Precepto"
+    },
+    {
+      "title": {
+        "es": "Santa Anastasia, Mártir (Segunda Misa)",
+        "en": "Saint Anastasia, Martyr (Second Mass)"
+      },
+      "rank": {
+        "es": "Doble de Primera Clase",
+        "en": "Double of the First Class"
+      },
+      "color": "Blanco",
+      "fasting": null,
+      "misc": "Día de Precepto"
+    }
+  ]
+},
+{
+  "date": "2026-12-26",
+  "weekday": {
+    "es": "Sábado",
+    "en": "Saturday"
+  },
+  "celebrations": [
+    {
+      "title": {
+        "es": "San Esteban, Protomártir",
+        "en": "Saint Stephen, Protomartyr"
+      },
+      "rank": {
+        "es": "Doble de Segunda Clase",
+        "en": "Double of the Second Class"
+      },
+      "color": "Rojo",
+      "fasting": null,
+      "misc": null
+    },
+    {
+      "title": {
+        "es": "Segundo Día dentro de la octava de la Natividad",
+        "en": "Second Day within the Octave of the Nativity"
+      },
+      "rank": {
+        "es": "Doble de Segunda Clase",
+        "en": "Double of the Second Class"
+      },
+      "color": "Rojo",
+      "fasting": null,
+      "misc": null
+    }
+  ]
+},
+{
+  "date": "2026-12-27",
+  "weekday": {
+    "es": "Domingo",
+    "en": "Sunday"
+  },
+  "celebrations": [
+    {
+      "title": {
+        "es": "San Juan Apóstol y Evangelista",
+        "en": "Saint John, Apostle and Evangelist"
+      },
+      "rank": {
+        "es": "Doble de Segunda Clase",
+        "en": "Double of the Second Class"
+      },
+      "color": "Blanco",
+      "fasting": null,
+      "misc": null
+    },
+    {
+      "title": {
+        "es": "Tercer Día dentro de la octava de la Natividad",
+        "en": "Third Day within the Octave of the Nativity"
+      },
+      "rank": {
+        "es": "Doble de Segunda Clase",
+        "en": "Double of the Second Class"
+      },
+      "color": "Blanco",
+      "fasting": null,
+      "misc": null
+    }
+  ]
+},
+{
+  "date": "2026-12-28",
+  "weekday": {
+    "es": "Lunes",
+    "en": "Monday"
+  },
+  "celebrations": [
+    {
+      "title": {
+        "es": "Los Santos Inocentes, Mártires",
+        "en": "The Holy Innocents, Martyrs"
+      },
+      "rank": {
+        "es": "Doble de Segunda Clase",
+        "en": "Double of the Second Class"
+      },
+      "color": "Rojo",
+      "fasting": null,
+      "misc": null
+    },
+    {
+      "title": {
+        "es": "Cuarto Día dentro de la octava de la Natividad",
+        "en": "Fourth Day within the Octave of the Nativity"
+      },
+      "rank": {
+        "es": "Doble de Segunda Clase",
+        "en": "Double of the Second Class"
+      },
+      "color": "Rojo",
+      "fasting": null,
+      "misc": null
+    }
+  ]
+},
+{
+  "date": "2026-12-29",
+  "weekday": {
+    "es": "Martes",
+    "en": "Tuesday"
+  },
+  "celebrations": [
+    {
+      "title": {
+        "es": "Santo Tomás de Canterbury, Obispo y Mártir",
+        "en": "Saint Thomas of Canterbury, Bishop and Martyr"
+      },
+      "rank": {
+        "es": "Doble",
+        "en": "Double"
+      },
+      "color": "Rojo",
+      "fasting": null,
+      "misc": null
+    },
+    {
+      "title": {
+        "es": "Quinto Día dentro de la octava de la Natividad",
+        "en": "Fifth Day within the Octave of the Nativity"
+      },
+      "rank": {
+        "es": "Doble",
+        "en": "Double"
+      },
+      "color": "Rojo",
+      "fasting": null,
+      "misc": null
+    }
+  ]
+},
+{
+  "date": "2026-12-30",
+  "weekday": {
+    "es": "Miércoles",
+    "en": "Wednesday"
+  },
+  "celebrations": [
+    {
+      "title": {
+        "es": "Del Domingo dentro de la octava de la Natividad",
+        "en": "Sunday within the Octave of the Nativity"
+      },
+      "rank": {
+        "es": "Semi doble",
+        "en": "Semi-double"
+      },
+      "color": "Blanco",
+      "fasting": null,
+      "misc": null
+    }
+  ]
+},
+{
+  "date": "2026-12-31",
+  "weekday": {
+    "es": "Jueves",
+    "en": "Thursday"
+  },
+  "celebrations": [
+    {
+      "title": {
+        "es": "San Silvestre I, Papa y Mártir",
+        "en": "Saint Sylvester I, Pope and Martyr"
+      },
+      "rank": {
+        "es": "Doble",
+        "en": "Double"
+      },
+      "color": "Blanco",
+      "fasting": null,
+      "misc": null
+    },
+    {
+      "title": {
+        "es": "Séptimo Día dentro de la octava de la Natividad",
+        "en": "Seventh Day within the Octave of the Nativity"
+      },
+      "rank": {
+        "es": "Doble",
+        "en": "Double"
+      },
+      "color": "Blanco",
+      "fasting": null,
+      "misc": null
+    }
+  ]
 }
-
 ]
