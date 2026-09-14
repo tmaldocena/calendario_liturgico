@@ -4622,10 +4622,10 @@
   "weekday": { "es": "Miércoles", "en": "Wednesday" },
   "celebrations": [
     {
-      "title": { "es": "San Cornelio, Papa & San Cypriano, Obispo, Mártires", "en": "Saint Cornelius, Pope & Saint Cyprian, Bishop, Martyrs" },
+      "title": { "es": "De Temporas - San Cornelio, Papa & San Cypriano, Obispo, Mártires", "en": "Saint Cornelius, Pope & Saint Cyprian, Bishop, Martyrs" },
       "rank": { "es": "Semidoble", "en": "Semi-double" },
       "color": "Rojo",
-      "fasting": "fasting_and_abstinence",
+      "fasting": "fasting-and-abstinence",
       "misc": "Miércoles de Témporas"
     },
     {
@@ -4655,7 +4655,7 @@
   "weekday": { "es": "Viernes", "en": "Friday" },
   "celebrations": [
     {
-      "title": { "es": "San José de Cupertino, Confesor", "en": "Saint Joseph of Cupertino, Confessor" },
+      "title": { "es": "De Temporas - San José de Cupertino, Confesor", "en": "Saint Joseph of Cupertino, Confessor" },
       "rank": { "es": "Doble", "en": "Double" },
       "color": "Blanco",
       "fasting": "fasting-and-abstinence",
@@ -4668,7 +4668,7 @@
   "weekday": { "es": "Sábado", "en": "Saturday" },
   "celebrations": [
     {
-      "title": { "es": "San Jenaro, Obispo y Compañeros, Mártires", "en": "Saint Januarius, Bishop and Companions, Martyrs" },
+      "title": { "es": "De Temporas - San Jenaro, Obispo y Compañeros, Mártires", "en": "Saint Januarius, Bishop and Companions, Martyrs" },
       "rank": { "es": "Doble", "en": "Double" },
       "color": "Rojo",
       "fasting": "fasting-and-abstinence",
